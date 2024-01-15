@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import styles from "../styles/HomePage.module.css";
+import Title from "./Title.js";
+import Body from "./Body.js";
 
 function HomePage(props) {
-  const filler = "this is what will be displayed";
-
   return (
-    <div style={{ background: "grey" }}>
-      <p>{filler}</p>
+    <div>
+      <Title />
+      <Body />
     </div>
   );
 }
